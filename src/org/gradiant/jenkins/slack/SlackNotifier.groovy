@@ -61,6 +61,6 @@ void notifyResult() {
 void notifyResultFull() {
   env.TEST_SUMMARY = true
   env.CHANGE_LIST = true
-  env.NOTIFY_SUCCESS = true
+  env.NOTIFY_SUCCESS = false
   notifyResult()
 }
